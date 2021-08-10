@@ -6,6 +6,7 @@ import LocalAtmOutlinedIcon from '@material-ui/icons/LocalAtmOutlined';
 import DonutLargeOutlinedIcon from '@material-ui/icons/DonutLargeOutlined';
 import AttachMoneyOutlinedIcon from '@material-ui/icons/AttachMoneyOutlined';
 import styles from '../../../styles/card.module.css'
+import Link from 'next/Link'
 const useStyles = makeStyles((theme) => ({
     card_box: {
         border: '2px solid red',

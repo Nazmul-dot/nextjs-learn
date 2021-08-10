@@ -1,6 +1,6 @@
 import Layout from '../src/components/layout/Layout'
 import '../styles/globals.css'
-
+import Link from 'next/Link'
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>

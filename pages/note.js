@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/Link'
 const note = () => {
     return (
         <>

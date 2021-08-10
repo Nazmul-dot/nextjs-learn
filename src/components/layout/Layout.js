@@ -3,6 +3,7 @@ import Header from '../header/Header'
 import Navbar from '../navbar/Navbar'
 import { makeStyles } from '@material-ui/core/styles';
 import styles from '../../../styles/layout.module.css'
+import Link from 'next/Link'
 const Layout = ({ children }) => {
     return (
         <>

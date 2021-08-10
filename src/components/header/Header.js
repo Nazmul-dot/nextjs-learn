@@ -7,6 +7,7 @@ import Badge from '@material-ui/core/Badge';
 import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined';
 import Avatar from '@material-ui/core/Avatar';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import Link from 'next/Link'
 const Header = () => {
     const theme = createTheme({
         palette: {
