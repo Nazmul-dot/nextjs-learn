@@ -28,38 +28,38 @@ const Navbar = () => {
                     Gull
                 </p>
                 <Link href='/'>
-                    <a className={`${styles.item}`}
-                        className={` ${cheak('/')}`}
+                    <a className={`${styles.item} ${cheak('/')}`}
+
                     ><div className={styles.inner_item}><HomeWorkIcon />Dashboard</div></a>
                 </Link>
                 <Link href='/table'>
-                    <a className={styles.item}
-                        className={` ${cheak('/table')}`}
+                    <a className={`${styles.item} ${cheak('/table')}`}
+
                     ><div className={styles.inner_item}><TableChartIcon />Table</div></a>
                 </Link>
                 <Link href='/file'>
-                    <a className={styles.item}
-                        className={` ${cheak('/file')}`}
+                    <a className={`${styles.item} ${cheak('/file')}`}
+
                     ><div className={styles.inner_item}><FileCopyIcon />File</div></a>
                 </Link>
                 <Link href='/note'>
-                    <a className={styles.item}
-                        className={` ${cheak('/note')}`}
+                    <a className={`${styles.item} ${cheak('/note')}`}
+
                     ><div className={styles.inner_item}><NoteIcon />Note</div></a>
                 </Link>
                 <Link href='/answer'>
-                    <a className={styles.item}
-                        className={` ${cheak('/answer')}`}
+                    <a className={`${styles.item} ${cheak('/answer')}`}
+
                     ><div className={styles.inner_item}><PanToolOutlinedIcon />Answer</div></a>
                 </Link>
                 <Link href='/profile'>
-                    <a className={styles.item}
-                        className={` ${cheak('/profile')}`}
+                    <a className={`${styles.item} ${cheak('/profile')}`}
+
                     ><div className={styles.inner_item}><SupervisorAccountOutlinedIcon />Profile</div></a>
                 </Link>
                 <Link href='/cloude'>
-                    <a className={styles.item}
-                        className={` ${cheak('/cloude')}`}
+                    <a className={`${styles.item} ${cheak('/cloude')}`}
+
                     ><div className={styles.inner_item}><CloudQueueOutlinedIcon />Cloude</div></a>
                 </Link>
 
