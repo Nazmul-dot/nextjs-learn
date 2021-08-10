@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 import styles from '../../../styles/nab.module.css'
 import HomeWorkIcon from '@material-ui/icons/HomeWork';
 import TableChartIcon from '@material-ui/icons/TableChart';
